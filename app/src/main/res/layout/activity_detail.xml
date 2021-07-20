@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:background="@drawable/ty1">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaccine Availability Details"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/log"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_baseline_home_24"
+                    android:scaleType="fitXY"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Center :"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:id="@+id/centername"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Center"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="13dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/log"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_baseline_location_on_24"
+                    android:scaleType="fitXY"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Address :"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="260dp"
+                        android:layout_height="40dp"
+                        android:text="Center"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="13dp"/>
+                    <TextView
+                        android:id="@+id/address1"
+                        android:layout_width="260dp"
+                        android:layout_height="40dp"
+                        android:text="Center"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="13dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/log"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_baseline_access_time_24"
+                    android:scaleType="fitXY"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Timings :"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:id="@+id/timings"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Center"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="13dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/log"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_baseline_colorize_24"
+                    android:scaleType="fitXY"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:layout_width="290dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Availability :"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:id="@+id/availability"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Center"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="13dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/log"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/ic_baseline_invert_colors_24"
+                    android:scaleType="fitXY"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Vaccine :"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="17dp"/>
+                    <TextView
+                        android:id="@+id/vaccine"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="Center"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="13dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
